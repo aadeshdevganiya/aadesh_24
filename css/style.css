@@ -1407,7 +1407,12 @@ body.offcanvas {
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
-    width: 100%; } }
+    width: 100%; } 
+   .colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+              padding-top: 5em;
+              padding-bottom: 0;
+          }
+}
 
 .row-bottom-padded-lg {
   padding-bottom: 7em; }
@@ -1435,3 +1440,16 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+
+
+@media screen (max-width: 480px) {
+  .col-xxs-12 {
+    float: none;
+    width: 100%; } 
+   .colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+              padding-top: 5em;
+              padding-bottom: 0;
+          }
+}
